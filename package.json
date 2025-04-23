@@ -1,11 +1,14 @@
 {
   "name": "login_page",
   "private": true,
+  "homepage": "https://Jagadeesh1223.github.io/Login_Page",
   "version": "0.0.0",
   "type": "module",
   "scripts": {
     "dev": "vite",
     "build": "vite build",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build",
     "lint": "eslint .",
     "preview": "vite preview"
   },
